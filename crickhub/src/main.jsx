@@ -9,7 +9,7 @@ import {
 import LiveMatches from './pages/AllMatches.jsx';
 import LandingPage from './pages/LiveMatches.jsx';
 import AllMatches from './pages/AllMatches.jsx';
-import PointsTable from './PointsTable.jsx';
+import PointsTable from './pages/PointsTable.jsx';
 
 const router = createBrowserRouter([
   {
