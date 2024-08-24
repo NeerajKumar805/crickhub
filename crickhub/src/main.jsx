@@ -9,16 +9,21 @@ import {
 import LiveMatches from './pages/AllMatches.jsx';
 import AllMatches from './pages/LiveMatches.jsx';
 import PointsTable from './pages/PointsTable.jsx';
+import LandingPage from './pages/LandingPage.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/matches",
+    path: "/",
     element: <App />,
     children: [
-      // {
-      //   path: "/",
-      //   element: <LiveMatches />,
-      // },
+      {
+        index: true, // This makes LandingPage the default component for the base path
+        element: <LandingPage />,
+      },
+      {
+        path: "home",
+        element: <LandingPage />,
+      },
       {
         path: "live",
         element: <LiveMatches />,

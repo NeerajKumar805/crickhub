@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      
       {/* Other content of App */}
       <Outlet /> {/* This will render child routes */}
     </div>
