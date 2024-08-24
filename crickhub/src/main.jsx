@@ -7,25 +7,24 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import LiveMatches from './pages/AllMatches.jsx';
-import LandingPage from './pages/LiveMatches.jsx';
-import AllMatches from './pages/AllMatches.jsx';
+import AllMatches from './pages/LiveMatches.jsx';
 import PointsTable from './pages/PointsTable.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/matches",
     element: <App />,
     children: [
+      // {
+      //   path: "/",
+      //   element: <LiveMatches />,
+      // },
       {
-        path: "/",
-        element: <LandingPage />,
+        path: "live",
+        element: <LiveMatches />,
       },
       {
-        path: "live-matches",
-        element: <LandingPage />,
-      },
-      {
-        path: "all-matches",
+        path: "all",
         element: <AllMatches />,
       },
       {

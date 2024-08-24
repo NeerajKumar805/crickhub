@@ -15,16 +15,16 @@ function Navbar() {
                     </ul>
                     <ul className="navbar-nav me-0">
                         <li className="nav-item">
-                            <Link to="/" className="nav-link active" aria-current="page">Home</Link>
+                            <Link to="/matches" className="nav-link active" aria-current="page">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/live-matches" className="nav-link">Live Match</Link>
+                            <Link to="/matches/live" className="nav-link">Live Match</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/all-matches" className="nav-link">All Matches</Link>
+                            <Link to="/matches/all" className="nav-link">All Matches</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/points-table" className="nav-link">Points Table</Link>
+                            <Link to="/matches/points-table" className="nav-link">Points Table</Link>
                         </li>
                     </ul>
                 </div>
