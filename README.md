@@ -51,6 +51,8 @@ Enjoy live cricket scores directly from your browser!
 ## Screenshots
 
 Here are some screenshots of the CRICKHUB platform:
+
+![home-page](https://github.com/user-attachments/assets/5a981bf3-a741-4314-8bd1-f56ac21a3925)
 ![live-matches](https://github.com/user-attachments/assets/3dba7a93-0c33-4bdf-95fa-0e9eca32422d)
 ![all-matches](https://github.com/user-attachments/assets/cf8b2ab4-9212-42ec-b5b6-dc8ec56a570e)
 ![points-table](https://github.com/user-attachments/assets/fe1d580a-180d-4246-85f3-5ad0e6ab0bcb)
